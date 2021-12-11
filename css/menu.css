@@ -1,0 +1,24 @@
+
+.menu ul {
+    background-color: #4e9525;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: color .6s;
+    
+}
+.menu ul li a:hover {
+    color: #ffc107;
+}

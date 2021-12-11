@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body, html {
+    font-family:'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    display: flexbox;
+    height: 100%;
+}
+
+header {
+    background: no-repeat url(../img/wallpaper.png);
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 0;
+    text-align: center;
+}
+
+.header-content {
+    font-size: 20px;
+    max-width: 400px;
+    margin: 150px auto;
+    color: #f8f9fa;
+    text-align: center;
+    transition: color .5s ease
+}
+
+
+.header-content:hover {
+    color: #ffc107;
+}
+
+/*
+Título da box - 1° Problema
+*/
+
+.title-box {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+      
+
+}
+
+.title {
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 30px 20px;
+}
+
+.title span {
+    color: #4e9525;
+}
+
+.linha-horizontal {
+    width: 100%;
+    border: 0.5px solid #DCDCDC;
+}
+
+
+
+/*
+Section Box Informações - Problemas - 1° Problema
+*/
+
+
+.box-info {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box-single {
+    background-color: #f8f9fa;
+    width: 92%;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 1em #DCDCDC;
+    -webkit-box-shadow: 0px 0px 1em #DCDCDC;
+    -moz-box-shadow: 0px 0px 1em #DCDCDC;
+}
+
+.box-single i {
+    color: #4e9525;
+    font-size: 30px;
+    display: flex;
+    transition: color .5s ease;
+}
+
+.box-single i:hover {
+    color: #ffc107;
+}
+
+.box-single h2 {
+    font-size: 17px;
+    color: #343a40;
+    margin: 10px 0;
+}
+
+.box-single p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+/*
+Título da box - 2° Problema
+*/
+
+.title-box-2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+      
+
+}
+
+.title-2 {
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 30px 20px;
+}
+
+.title-2 span {
+    color: #4e9525;
+}
+
+.linha-horizontal-2 {
+    width: 100%;
+    border: 0.5px solid #DCDCDC;
+}
+
+
+
+/*
+2° Problema
+*/
+
+.box-info-2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box-single-2 {
+    background-color: #f8f9fa;
+    width: 92%;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 1em #DCDCDC;
+    -webkit-box-shadow: 0px 0px 1em #DCDCDC;
+    -moz-box-shadow: 0px 0px 1em #DCDCDC;
+}
+
+.box-single-2 i {
+    color: #4e9525;
+    font-size: 30px;
+    display: flex;
+    transition: color .5s ease;
+}
+
+.box-single-2 i:hover {
+    color: #ffc107;
+}
+
+.box-single-2 h2 {
+    font-size: 17px;
+    color: #343a40;
+    margin: 10px 0;
+}
+
+.box-single-2 p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+/*
+Título da box - 3° Problema
+*/
+
+.title-box-3 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+      
+
+}
+
+.title-3 {
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 30px 20px;
+}
+
+.title-3 span {
+    color: #4e9525;
+}
+
+.linha-horizontal-3 {
+    width: 100%;
+    border: 0.5px solid #DCDCDC;
+}
+
+
+
+/*
+3° Problema
+*/
+
+.box-info-3 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box-single-3 {
+    background-color: #f8f9fa;
+    width: 92%;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 1em #DCDCDC;
+    -webkit-box-shadow: 0px 0px 1em #DCDCDC;
+    -moz-box-shadow: 0px 0px 1em #DCDCDC;
+}
+
+.box-single-3 i {
+    color: #4e9525;
+    font-size: 30px;
+    display: flex;
+    transition: color .5s ease;
+}
+
+.box-single-3 i:hover {
+    color: #ffc107;
+}
+
+.box-single-3 h2 {
+    font-size: 17px;
+    color: #343a40;
+    margin: 10px 0;
+}
+
+.box-single-3 p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+/*
+rodapé
+*/
+
+.footer-info {
+    background: #252525;
+    height: 200px;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-info p {
+    color: #DCDCDC;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-info h3 {
+    color: #4e9525;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;;
+}
+
+.footer-info i {
+    color: #DCDCDC;
+    margin-top: 25px;
+    transition: color .5s ease;
+}
+
+.footer-info i:hover {
+    color: #4e9525;
+}
+
+.copy {
+    background: #4e9525;
+    height: auto;
+}
+
+.copy p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.copy span {
+    color: #ffc107;
+    font-weight: 200;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.redes-sociais li {
+    margin: 0 10px;
+}
+
+.redes-sociais i {
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .box-single, .box-single-2, .box-single-3 {
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
